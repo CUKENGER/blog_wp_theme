@@ -1,4 +1,4 @@
-# Knowledge Base WordPress Theme
+# Blog WordPress Theme
 
 A lightweight, responsive WordPress theme with custom queries, search functionality, and shortcodes for dynamic content. Designed for performance and flexibility, ideal for content-driven websites.
 
