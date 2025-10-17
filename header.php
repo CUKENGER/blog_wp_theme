@@ -4,8 +4,10 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/favicon.ico'); ?>"
+    type="image/x-icon">
+  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri() . '/assets/favicon.svg'); ?>"
+    type="image/svg+xml">
   <?php
   $site_name = get_bloginfo('name'); // Название сайта
   $site_description = get_theme_mod('tgx_site_description', get_bloginfo('description')); // Глобальное описание из Customizer
