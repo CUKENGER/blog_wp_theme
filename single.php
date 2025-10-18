@@ -63,18 +63,6 @@
               <span class="post-author-name"><?php the_author(); ?></span>
             </div>
           </header>
-          <div class="post-cover">
-            <?php if (has_post_thumbnail()): ?>
-              <?php the_post_thumbnail('large', [
-                'alt' => get_the_title(),
-                'class' => 'post-cover-image',
-                'loading' => 'lazy'
-              ]); ?>
-            <?php else: ?>
-              <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/post.png'); ?>" alt="post"
-                class="post-cover-image" loading="lazy">
-            <?php endif; ?>
-          </div>
           <div class="post-content">
             <?php the_content(); ?>
             <?php
